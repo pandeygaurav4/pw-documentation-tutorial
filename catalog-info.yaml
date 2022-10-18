@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "pw-documentation-tutorial"
+  description: "PW Documentation Tutorial"
+  annotations:
+    github.com/project-slug: pwalleni/pw-documentation-tutorial
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "pwalleni"
